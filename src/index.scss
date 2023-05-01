@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f3f6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+// product
+.container{
+  width: 100%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-2{
+  width: 20%;
+}
+.product-range{
+  box-shadow: 0 0 10px #ccc;
+  padding: 18px;
+  background-color: #fff;
+  margin: 20px 10px;
+}
+.product-bot{
+  border-bottom: solid 1px #d4cdcd73;
+  margin-top: 30px;
+ 
+}
+.product-fil{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.clr-btn{
+  color: blue;
+  cursor: pointer;
+}
+.akg button{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  border:none;
+  background-color: #a9a9a973;
+}
+.akg-icon{
+  margin-right: 10px;
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-10{
+  width: 80%;
+}
+.product{
+  box-shadow: 0 0 10px #ccc;
+  padding: 18px;
+  background-color: #fff;
+  margin: 20px 10px;
+}
+.col-3{
+  width:25%;
+}
+// .card{
+//   display: flex;
+//  flex-wrap: wrap;
+// }
+//  CardActionArea{
+//   padding: 20px;
+// }
+.product span{
+  color: rgba(128, 128, 128, 0.637);
+  margin-left: 10px;
+  font-size: 20px;
+}
+.product ul{
+  display: flex;
+
+}
+.product li{
+  list-style-type:none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.product li:hover{
+  color:blue;
+  cursor: pointer;
+
+}
+// .product .para{
+//   color:blue;
+// }
+
+.card-add{
+  display: flex;
+  justify-content: space-between;
+}
+.card-add button{
+  font-size: 20px;
+  border: none;
+  background-color: #80808061;
+  color:#fff;
+  font-weight: 600;
+}
+// .card-add .heart{
+  // border: none;
+  // background-color: transparent;
+// }
+.star{
+  display: flex;
+  align-items: center;
+}
+.star p{
+  margin:0 10px;
+  color: gray;
+}
+.star .rate{
+  padding: 4px 12px;
+  background-color:green;
+  color:#fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.star .rate-icon{
+  margin: 0 0 0 5px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+}
+.amount h3{
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+.amount .amount1{
+  color: gray;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.amount h4{
+  color:green;
+  font-size: 18px;
+}
+.select{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+
+
